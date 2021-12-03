@@ -1,0 +1,220 @@
+/* Style the body */
+body {
+  margin: 20px;
+  background-image: url("Love.jpg");
+  background-size: cover;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.text{
+  text-align: center;
+  text-shadow: 2px 2px white;
+  background-color: rgba(228, 228, 149, 0.301);
+}
+
+/* Style the header */
+.header {
+  background-color: #f32c2c;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(243, 99, 3, 0.932);
+  }
+
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #c23636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: rgba(230, 155, 84, 0.89);
+    color: black;
+  }
+
+  /* Style the footer */
+.footer {
+  padding: 40px;
+  text-align: center;
+  background: rgb(49, 11, 214);
+  margin-top: 30px;
+}
+/* Fake image */
+.image {
+  background-image: url("pride.jpg");
+  width: 1000px;
+  height: 500px;
+  padding: 200px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgba(193, 224, 16, 0.966);
+  padding: 10px;
+  margin-top: 200px;
+  height:auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content:normal;
+  display: table;
+  clear: both;
+}
+.inline {
+  display: inline;
+  text-align: center;
+  float: left;
+}
+.horizontal {
+  width: 100%;
+}
+.box {
+  height: 150px;
+  width: 140px;
+  border: 1px solid black;
+  margin: 22px;
+  text-align:center;
+  font-size:15px;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: rgb(22, 177, 2);
+  bottom: auto;
+}
+
+/*style the contact*/
+/* Style inputs */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #cc0cdd;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout*/
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  /* Style the top navigation bar */
+.float{
+  float:right;
+}
+.background{
+  background-color: rgb(238, 58, 58);
+}
+.topnav{
+
+  list-style-type: none;
+  background-color: rgb(236, 84, 14);
+  height: 50px;
+  margin: 0px;
+  width: 100%;
+  padding: auto;
+}
+.topnav > li {
+  display: inline;
+  
+}
+.topnav > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 17px 10px;
+  line-height: 50px;
+}
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.topnav > li:first-child a{
+  color: black;
+  background-color: green;
+}
+.topnav > li > a:hover {
+  background-color: rgb(159, 161, 228);
+}
+
+ img {
+   float:left;
+   width:70px;
+   height:70px;
+   margin-left:20px;
+   margin-top: 20px;
+   background-color: rgb(255, 255, 255) ;
+ }
+ .border {
+   border: outset;
+   background-color: rgba(214, 248, 64, 0.801);
+ }
+ p {
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(5, 5, 5);
+ }
+  
