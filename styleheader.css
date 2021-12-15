@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+.inline{
+  float:right;
+}
+
 /* Style the header */
 .header {
   background-color: #f32c2c;
