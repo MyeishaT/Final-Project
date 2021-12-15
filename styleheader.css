@@ -1,7 +1,7 @@
 /* Style the body */
 body {
   margin: 20px;
-  background-image: url("pride.jpg");
+  background-image: url("./img/pride.jpg");
   background-size: cover;
 }
 

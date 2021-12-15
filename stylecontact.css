@@ -1,7 +1,7 @@
 /* Style the body */
 body {
   margin: 20px;
-  background-image: url("Love.jpg");
+  background-image: url("./img/Love.jpg");
   background-size: cover;
 }
 
