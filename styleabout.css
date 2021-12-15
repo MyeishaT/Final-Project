@@ -1,0 +1,162 @@
+/* Style the body */
+body {
+    margin: 20px;
+    background-image: url("./img/gay.jpg");
+    background-size: cover;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f32c2c;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  
+    /* Style the top navigation bar */
+   
+   .float{
+    float:right;
+  }
+  .background{
+    background-color: rgb(238, 58, 58);
+  }
+  .topnav{
+    list-style-type: none;
+    background-color: rgb(236, 84, 14);
+    height: 50px;
+    width: 100%;
+  }
+  .topnav > li {
+    display: inline;
+    
+  }
+  .topnav > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 17px 10px;
+    line-height: 50px;
+  }
+  ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+  }
+  
+  .topnav > li:first-child a{
+    color: black;
+    background-color: green;
+  }
+  .topnav > li > a:hover {
+    background-color: rgb(159, 161, 228);
+  }
+  
+   img {
+     float:left;
+     width:70px;
+     height:70px;
+     margin-left:20px;
+     margin-top: 20px;
+     background-color: rgb(255, 255, 255) ;
+   }
+   .border {
+     border: outset;
+     background-color: rgba(214, 248, 64, 0.801);
+   }
+   p {
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(5, 5, 5);
+   }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: rgba(224, 139, 11, 0.685);
+    padding: 20px;
+    margin-top: 20px;
+    height:auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content:normal;
+    display: table;
+    clear: both;
+  }
+  .inline {
+    display: inline;
+    text-align: center;
+    float: left;
+  }
+  .horizontal {
+    width: 100%;
+  }
+  .box {
+    height: 150px;
+    width: 140px;
+    border: 1px solid black;
+    margin: 22px;
+    text-align:center;
+    font-size:15px;
+  }
+  /* Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: rgb(22, 177, 2);
+    bottom: auto;
+  }
+  
+  .float {
+    float:right;
+  }
+
+   /*
+      ####################################################
+      M E D I A  Q U E R I E S
+      ####################################################
+      */
+      
+      /*
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::
+      Bootstrap 4 breakpoints
+      */
+      
+      /* 
+      Extra small devices (portrait phones, less than 576px) 
+      No media query since this is the default in Bootstrap because it is "mobile first"
+      */
+      
+      
+      /* Small devices (landscape phones, 576px and up) */
+      @media (min-width: 576px) {  
+      
+      }
+      
+      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media (min-width: 768px) {  
+      
+      }
+      
+      /* Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) { 
+      
+      }
+      
+      /* Extra large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) {  
+          
+      }
+      
+      
+      
+      /*
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::
+      Custom media queries
+      */
+      
+      /* Set width to make card deck cards 100% width */
+      @media (max-width: 950px) { 
+      
+      }
