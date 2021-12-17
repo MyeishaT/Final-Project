@@ -66,8 +66,16 @@ body {
 
 }
 
+.hover > nav > div > a:hover{
+  background-color: rgba(0, 128, 0, 0.795);
+}
+
 .hidden{
   visibility: hidden;
+}
+
+.white{
+  background-color: white;
 }
 
 .red {
@@ -100,7 +108,7 @@ body {
   text-align: center;
 }
   /* Style the top navigation bar */
-.float{
+.floaat{
   float:right;
 }
 .background{
