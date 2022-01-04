@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+.center{
+  ali
+}
+
 .inline{
   float:right;
 }
@@ -48,11 +52,12 @@ body {
 }
 
 .box {
-  height: 150px;
-  width: 140px;
+  height: auto;
+  width: auto;
   border: 1px solid rgba(0, 0, 0, 0.37);
-  margin: 20px;
+  margin: 15px;
   text-align:center;
+  padding: 9px;
   font-size:15px;
   box-shadow: 5px 10px 5px;
 }
@@ -79,7 +84,7 @@ body {
   background-color: rgb(241, 13, 13);
 }
 .orange {
-  background-color: rgb(240, 101, 9);
+  background-color: rgb(238, 132, 62);
 }
 .yellow {
   background-color: yellow;
@@ -182,12 +187,15 @@ ul {
 .sidenav > li {
   background-color: rgb(35, 35, 37);
 }
+
 .left {
   background-color: rgba(30, 89, 218, 0.733);
   width: calc(30% - 40px);
   float: left;
   height: 100%;
-  max-width: 350px;
+  margin: 20px;
+  padding: 5px;
+  
 }
 .container{
   height: 100%;
@@ -199,7 +207,7 @@ ul {
   float: left;
   height: 100%;
   padding: 20px;
-  margin: 5px 20px;
+  margin: 20px;
 }
 
 .back {
