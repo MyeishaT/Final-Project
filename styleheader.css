@@ -9,6 +9,23 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+div > p{
+  color: rgb(250, 250, 250);
+  text-align: left;
+}
+
+div > h1{
+  color: white;
+}
+
+div > a{
+  color: black
+}
+
+div > ul > li > a:first-child{
+  color:black
+}
+
 .text{
   font-weight: bold;
 
@@ -31,6 +48,7 @@ a:hover{
   width: 100%;
   
 }
+
 
   /* Style the footer */
 .footer {
@@ -96,13 +114,14 @@ a:hover{
   background-color: rgb(238, 132, 62);
 }
 .yellow {
-  background-color: yellow;
+  background-color: rgb(203, 206, 53);
 }
 .green {
   background-color: rgb(64, 160, 0);
 }
 .blue {
-  background-color: rgb(22, 22, 236);
+  
+  background-color: rgb(63, 65, 226);
 }
 .purple {
   background-color: rgb(235, 12, 197);
@@ -211,7 +230,7 @@ ul {
   overflow: auto;
 }
 .right {
-  background-color: rgba(0, 128, 0, 0.795);
+  background-color: rgba(0, 128, 0, 0.842);
   width: calc(70% - 40px);
   float: left;
   height: 100%;
