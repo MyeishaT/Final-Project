@@ -5,8 +5,17 @@ body {
   background-size: cover;
 }
 
-.center{
-  ali
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text{
+  font-weight: bold;
+
+}
+
+a:hover{
+  background-color: rgba(243, 214, 170, 0.61);
 }
 
 .inline{
@@ -81,7 +90,7 @@ body {
 
 
 .red {
-  background-color: rgb(241, 13, 13);
+  background-color: rgb(236, 49, 49);
 }
 .orange {
   background-color: rgb(238, 132, 62);

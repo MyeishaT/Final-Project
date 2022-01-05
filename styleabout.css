@@ -12,6 +12,19 @@ body {
     text-align: center;
     margin: auto;
   }
+
+  *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .text{
+    font-weight: bold;
+  
+  }
+
+  a:hover{
+    background-color: rgba(243, 214, 170, 0.61);
+  }
   
     /* Style the top navigation bar */
    
@@ -23,7 +36,7 @@ body {
   }
   .topnav{
     list-style-type: none;
-    background-color: rgb(236, 84, 14);
+    background-color: rgb(207, 89, 35);
     height: 50px;
     width: 100%;
   }
