@@ -15,6 +15,14 @@ body {
   
 }
 
+div > a{
+  color: black
+}
+
+div > ul > li > a:first-child{
+  color:black
+}
+
 a:hover{
   background-color: rgba(243, 214, 170, 0.61);
 }
