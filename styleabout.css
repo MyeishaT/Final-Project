@@ -92,21 +92,20 @@ body {
    }
   
   /* Add a card effect for articles */
-  .card {
-    background-color: rgba(220, 224, 11, 0.685);
-    padding: 20px;
-    height:auto;
-    float: ;
-    width: auto;
-   
+  .border{
+    border-style: inset;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+  }
+
+  .centerr{
+    margin: 20px 30px;
   }
   
   /* Clear floats after the columns */
-  .row:after {
-    content:normal;
-    display: table;
-    clear: both;
-  }
+  
   .inline {
     display: inline;
     text-align: center;
