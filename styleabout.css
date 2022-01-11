@@ -1,7 +1,18 @@
 /* Style the body */
 body {
     margin: 20px;
-    background-image: url("./img/gay.jpg");
+  }
+
+  .bg { 
+    /* The image used */
+    background-image: url("img/about.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
   
@@ -82,7 +93,7 @@ body {
      margin-top: 20px;
      background-color: rgb(255, 255, 255) ;
    }
-   .border {
+   .border {                                                             
      border: outset;
      background-color: rgba(214, 248, 64, 0.801);
    }
@@ -94,14 +105,19 @@ body {
   /* Add a card effect for articles */
   .border{
     border-style: inset;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 3px 2px 7px rgba(12, 12, 12, 0.836);
     text-align: center;
     margin: 10px;
     padding: auto;
   }
 
+  div > p {
+    font-size: 20px;
+  }
+
   .centerr{
     margin: 20px 30px;
+    text-align: center;
   }
   
   /* Clear floats after the columns */
