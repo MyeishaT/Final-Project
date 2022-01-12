@@ -1,12 +1,18 @@
 /* Style the body */
 body {
   margin: 20px;
+  background-image: url("img/pride.jpg");
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
 .bg { 
   /* The image used */
   background-image: url("img/pride.jpg");
+  background-size: cover;
 
   /* Full height */
   height: 100%; 
