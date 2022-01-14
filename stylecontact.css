@@ -23,6 +23,10 @@ div > ul > li > a:first-child{
   color:black
 }
 
+div > p {
+  color: white;
+}
+
 a:hover{
   background-color: rgba(243, 214, 170, 0.61);
 }
@@ -158,9 +162,10 @@ a:hover{
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: #cc0cdd;
+    background-color: rgb(235, 12, 197);
     padding: 20px;
     margin: 50px;
+    color:rgb(253, 253, 253)
   }
   
   /* Create two columns that float next to eachother */
